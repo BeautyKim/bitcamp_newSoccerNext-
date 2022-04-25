@@ -1,7 +1,7 @@
 import React,{useState} from 'react'
 import { useDispatch } from 'react-redux';
 import { userActions } from '../../redux/reducers/userReducer.ts';
-import tableStyles from 'common/style/table.module.css'
+import tableStyles from '../common/style/table.module.css'
 import Head from 'next/head';
 
 export default function  Join(){
@@ -23,7 +23,6 @@ export default function  Join(){
             setUser({
                 userid:'', password:'', email:'', name:'', phone:'', birth:'', address:''
             })
-            // window.location.href = "./login"
         }
     }
     >

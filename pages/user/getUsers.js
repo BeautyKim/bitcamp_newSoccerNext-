@@ -1,6 +1,6 @@
 import axios from 'axios';
 import { useEffect, useState } from 'react';
-import tableStyles from 'common/style/table.module.css'
+import tableStyles from '../common/style/table.module.css'
 import Link from 'next/link'
 
 export default function GetUsers(){

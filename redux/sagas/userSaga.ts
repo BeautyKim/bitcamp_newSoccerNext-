@@ -39,6 +39,7 @@ function* join(user: UserJoinType){
     try{
         const response : UserJoinSuccessType = yield joinApi(user.payload)
         yield put(userActions.joinSuccess(response))
+        window.location.href = '/user/login'
     }catch(error){
          yield put(userActions.joinFailure(error))
     }

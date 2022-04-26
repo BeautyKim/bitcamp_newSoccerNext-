@@ -25,10 +25,10 @@ export default function Home() {
     <Head>
     <title>BeautyKim| HOME</title>
     </Head>
-    <body>
+    <div>
     <div id="timeZone"></div>
     <Image src={"/images/해골.gif"} width={800} height={400} alt="아름이와아이들"/>
-    </body>
+    </div>
     </>
   )
 }

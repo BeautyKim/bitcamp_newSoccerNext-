@@ -1,4 +1,4 @@
-import tableStyles from "common/style/table.module.css"
+import tableStyles from "../common/style/table.module.css"
 import { useEffect, useState } from "react";
 import Head from "next/head";
 import axios from "axios";

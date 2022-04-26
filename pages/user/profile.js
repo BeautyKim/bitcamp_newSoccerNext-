@@ -1,5 +1,5 @@
 import React,{useState, useEffect} from 'react'
-import tableStyles from 'common/styles/table.module.css'
+import tableStyles from '../common/style/table.module.css'
 
 export default function  Profile(){
     const [profile, setProfile] =useState({})

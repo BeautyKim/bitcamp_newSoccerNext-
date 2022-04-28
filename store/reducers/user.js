@@ -12,7 +12,7 @@ const userReducer = (state = initialState, action) =>{
         case HYDRATE:
             console.log(" ### Error: Hydration failed because the initial UI does not match what was rendered on the server. ### ")
             return { ...state, ...action.payload }
-        case T.USER_ADD_SUCCESSED:
+        case T.USER_ADD_SUCCESS:
             return { ...state, users: [action.payload, ...state.users] }
         default:
             return state;
